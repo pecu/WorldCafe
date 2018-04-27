@@ -139,7 +139,7 @@ p {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background: transparent;
-    color: #f39c12;
+    color: #f39c12 !important;
 }
 .header {
     background: url(../images/home.jpg);

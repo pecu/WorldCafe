@@ -31,6 +31,9 @@
     .about_phone img {
         width: 100%;
     }
+    #needtochangecolor li a {
+        color: white;
+    }
 }
 /* This Css is for tablet */
 
