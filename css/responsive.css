@@ -1,5 +1,11 @@
 
 /* This Css is for small mobile */
+@media (max-width: 479px) {
+    #content {
+        width: 80%;
+        margin: 0px auto !important;
+    }
+}
 
 @media (max-width: 767px) {
     .single_store {
