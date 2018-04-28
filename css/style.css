@@ -36,6 +36,10 @@ p {
     font-size: 14px;
 }
     
+.beauty {
+    font-family: 'Noto Sans TC' !important;
+}
+
 /*---------------------------------------
    COMMON STYLES             
 -----------------------------------------*/
@@ -89,7 +93,10 @@ p {
     margin-top: -100px
 }
 .navbar-brand {
-    padding: 9px 15px;
+    color: white !important;
+    padding: 15px 15px 0px 15px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 @media(min-width:768px) {
     .navbar-default {
