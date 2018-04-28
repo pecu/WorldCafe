@@ -32,7 +32,7 @@
 
     <!-- PrettyPhoto -->
     <link href="css/prettyPhoto.css" rel="stylesheet">
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
@@ -48,6 +48,10 @@
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+
 
     <!-- font -->
     <style>
@@ -64,7 +68,7 @@
             <div class="bounce3"></div>
         </div>
     </div>
- 
+
  <!-- END PRELOADER -->
 
  <!-- =========================
@@ -84,23 +88,25 @@
                             <span class="icon-bar"></span>
                         </button>
                         <h4 class="navbar-brand">World Cafe</h4>
-                        <!-- 
+                        <!--
                         <a class="navbar-brand" href="#">
                             <img src="images/logo.png" alt="Logo">
-                        </a>  
+                        </a>
                         -->
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right" id="needtochangecolor">
                             <!-- NAV -->
-                            <li><a href="#HOME">HOME</a> </li>
+                            <li><a href="#HOME" id="home">Home</a> </li>
                             <li><a href="#ABOUT" class="beauty">活動介紹 </a> </li>
                             <li><a href="#FEATURES" class="beauty">活動方式</a></li>
                             <li><a href="#SCREENS" class="beauty">桌長介紹</a> </li>
                             <li><a href="#DOWNLOAD" class="beauty">推薦人介紹 </a> </li>
                             <!-- <li><a href="#CONTACT">主辦單位、協辦單位 </a> </li> -->
-                            <li><a href="https://www.accupass.com/event/1804251512571132737213" class="beauty">報名連結</a></li>
+                            <!-- <li><a href="https://www.accupass.com/event/1804251512571132737213" class="beauty">報名連結</a></li> -->
+                            <li id="butt"><a href="https://www.accupass.com/event/1804251512571132737213" class="btn btn-danger" role="button">報名連結</a></li>
+
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -122,7 +128,7 @@
                     <div class="col-md-12 col-sm-12">
                         <div class="home_text">
                             <!-- TITLE AND DESC -->
-                            <h1>World Cafe</h1>
+                            <h1 id="w">World Cafe</h1>
                             <p class="beauty">在人生的交叉口，你能有不一樣的選擇</p>
 
                             <div class="download-btn">
@@ -284,7 +290,7 @@
                                                 <!-- <img src="images/client_1.png" alt="">
                                                 <div class="testimonial_caption"> -->
 
-                                                   <!-- DESCRIPTION -->  
+                                                   <!-- DESCRIPTION -->
 
                                                    <!--  <h2>Dan Harmon</h2>
                                                     <h4><span>SR. UI Designer,</span> Dcrazed</h4>
@@ -304,7 +310,7 @@
                                                 <!-- <img src="images/client_2.png" alt="">
                                                 <div class="testimonial_caption"> -->
 
-                                                <!-- DESCRIPTION --> 
+                                                <!-- DESCRIPTION -->
 
                                                     <!-- <h2>Allie Kingsley</h2>
                                                     <h4><span>SR. Content Strategist,</span> Designscrazed</h4>
@@ -324,7 +330,7 @@
                                                 <!-- <img src="images/client_3.png" alt="">
                                                 <div class="testimonial_caption"> -->
 
-                                                <!-- DESCRIPTION --> 
+                                                <!-- DESCRIPTION -->
 
                                                     <!-- <h2>Joel Mchale</h2>
                                                     <h4><span>SR. Developer,</span> Treehouse</h4>
@@ -413,7 +419,7 @@
                             height: auto; max-width: 100%; border-radius: 5px">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -452,7 +458,7 @@
                         <div class="section_title">
                             <h2 class="beauty">桌長介紹</h2>
                             <hr>
-                            <h3 style="text-align: center" class="beauty">我們都是有故事的大學生</h3>                           
+                            <h3 style="text-align: center" class="beauty">我們都是有故事的大學生</h3>
                         </div>
                         <!-- END APPS SCREEN TITLE -->
                     </div>
@@ -482,7 +488,7 @@
                             <h2 style="font-family: '微軟正黑體'; font-weight: 300">王冠人</h2>
                              <h4><em>Interest</em></h4>
                             <p class="beauty" style="line-height: 25px">
-                                
+
                             </p>
                         </div>
                     </div>
@@ -492,7 +498,7 @@
                             <h2 style="font-family: '微軟正黑體'; font-weight: 300">謝長霖</h2>
                             <h4><em>Bravery</em></h4>
                             <p class="beauty" style="line-height: 25px">
-                                
+
                             </p>
                         </div>
                     </div>
@@ -520,7 +526,7 @@
                             <h2 style="font-family: '微軟正黑體'; font-weight: 300">葉宇心</h2>
                              <h4><em>Failure</em></h4>
                             <p class="beauty" style="line-height: 25px">
-                                
+
                             </p>
                         </div>
                     </div>
@@ -532,7 +538,7 @@
                             <p class="beauty" style="line-height: 25px">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 高中的第一年我和正常人沒有什麼太大的區別，直到考完第一次段考才發現環境已經和國中不一樣，整個環境與想像中落差很大，也因為這個原因當爸爸問我是否想休學一年去外面看看我會爽快的答應。
-                                當初剛來到愛爾蘭時，也許是因為亞洲人的含蓄，我不喜歡與人交流，直到三四個月過去，我驚覺這種生活模式與台灣的相似，在環境是沒有辦法成長的，於是我開始積極的與人交流，遭遇問題時也不再是單打獨鬥，而是會開口詢問，這種感覺在後來到矽谷的school 42更加深刻了。 
+                                當初剛來到愛爾蘭時，也許是因為亞洲人的含蓄，我不喜歡與人交流，直到三四個月過去，我驚覺這種生活模式與台灣的相似，在環境是沒有辦法成長的，於是我開始積極的與人交流，遭遇問題時也不再是單打獨鬥，而是會開口詢問，這種感覺在後來到矽谷的school 42更加深刻了。
                                 藉著這些經驗，我學會了獨立以及也擁有了國際觀。
                             </p>
                         </div>
@@ -543,11 +549,11 @@
                             <h2 style="font-family: '微軟正黑體'; font-weight: 300">廖偉涵</h2>
                              <h4><em>Explore</em></h4>
                             <p class="beauty" style="line-height: 25px">
-                                
+
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -584,7 +590,7 @@
 
 
 <!-- =========================
-     START DOWNLOAD NOW 
+     START DOWNLOAD NOW
 ============================== -->
     <section class="download page" id="DOWNLOAD">
         <div class="container">
@@ -610,17 +616,17 @@
             </div>
         </div>
 
-        <div class="available_store">
+        <!-- <div class="available_store">
             <div class="container  wow bounceInRight" data-wow-duration="1s">
                 <div class="col-md-6">
                     <div class="available_title">
                         <h2>Available on</h2>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- DOWNLOADABLE STORE -->
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="row">
                         <a href="">
                             <div class="col-md-4 no_padding">
@@ -653,137 +659,18 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- END DOWNLOADABLE STORE -->
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
     </section>
     <!-- END DOWNLOAD -->
 
-<!-- =========================
-     START CONTCT FORM AREA
-============================== -->
-    <section class="contact page" id="CONTACT">
-        <div class="section_overlay">
-            <div class="container">
-                <div class="col-md-10 col-md-offset-1 wow bounceIn">
-                    <!-- Start Contact Section Title-->
-                    <div class="section_title">
-                        <h2>Get in touch</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="contact_form wow bounceIn">
-                <div class="container">
-
-                <!-- START ERROR AND SUCCESS MESSAGE -->
-                    <div class="form_error text-center">
-                        <div class="name_error hide error">Please Enter your name</div>
-                        <div class="email_error hide error">Please Enter your Email</div>
-                        <div class="email_val_error hide error">Please Enter a Valid Email Address</div>
-                        <div class="message_error hide error">Please Enter Your Message</div>
-                    </div>
-                    <div class="Sucess"></div>
-                <!-- END ERROR AND SUCCESS MESSAGE -->
-
-                <!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
-                    <form role="form" action="contact.php">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                            </div>
-
-
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!-- END FORM --> 
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wow bounceInLeft">
-                        <div class="social_icons">
-                            <ul>
-                                <li><a href=""><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href=""><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href=""><i class="fa fa-dribbble"></i></a>
-                                </li>
-                                <li><a href=""><i class="fa fa-behance"></i></a>
-                                </li>
-                                <li><a href=""><i class="fa fa-youtube-play"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END CONTACT -->
-
-<!-- =========================
-     Start Subscription Form 
-============================== -->
-
-
-
-    <section class="subscribe parallax subscribe-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-        <div class="section_overlay wow lightSpeedIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-
-                        <!-- Start Subscribe Section Title -->
-                        <div class="section_title">
-                            <h2>SUBSCRIBE US</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        </div>
-                        <!-- End Subscribe Section Title -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row  wow lightSpeedIn">
-                    <div class="col-md-6 col-md-offset-3">
-                        <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-                        <div class="subscription-success"></div>
-                        <div class="subscription-error"></div>
-                        <!-- Check this topic on how to add email subscription list, http://kb.mailchimp.com/lists/signup-forms/host-your-own-signup-forms -->
-                        <form id="mc-form" action="https://designscrazed.us8.list-manage.com/subscribe/post" method="POST" class="subscribe_form">                         
-                        <input type="hidden" name="u" value="6908378c60c82103f3d7e8f1c">
-                        <input type="hidden" name="id" value="8c5074025d">
-                            <div class="form-group">
-                                <!-- EMAIL INPUT BOX -->
-                                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" class="required email form-control" id="mce-EMAIL" placeholder="Enter Email Address" value="" >                                 
-                            </div>
-                                <!-- SUBSCRIBE BUTTON -->
-                            <button type="submit" class="btn btn-default subs-btn">Submit</button>
-                        </form>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- END SUBSCRIPBE FORM -->
 
 
 <!-- =========================
-     FOOTER 
+     FOOTER
 ============================== -->
 
     <section class="copyright">
@@ -793,14 +680,14 @@
                 <div class="col-md-3">
                     <div class="copy_right_text">
                     <!-- COPYRIGHT TEXT -->
-                        <h3>主辦單位</h3>        
+                        <h3 style="color:#fff">主辦單位</h3>
                         <p>X School<br>( 軟體創新創業教育發展協會 )</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="copy_right_text">
                     <!-- COPYRIGHT TEXT -->
-                        <h3>協辦單位</h3>        
+                        <h3 style="color:#fff">協辦單位</h3>
                         <p style="line-height: 25px">飛市達創意創新中心<br>世代教育基金會</p>
                     </div>
                 </div>
@@ -808,18 +695,19 @@
                 <div class="col-md-3">
                     <div>
                     <!-- COPYRIGHT TEXT -->
-                        <h3>聯絡辦法</h3>        
+                        <h3 style="color:#fff">聯絡辦法</h3>
                         <p style="color: white; line-height: 25px; letter-spacing: 1.2px">
                             Email:  worldcafe.team@gmail.com<br>
                             Phone:  09xx-xxx-xxx
                         </p>
                     </div>
                 </div>
+                <div class="social_icons">
+                    <ul>
+                        <li><a href="#HOME"><i class="fa fa-facebook"></i></a>
+                        </li>
 
-                <div class="col-md-3">
-                    <div class="scroll_top">
-                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -828,7 +716,7 @@
 
 
 <!-- =========================
-     SCRIPTS 
+     SCRIPTS
 ============================== -->
 
 
@@ -840,10 +728,10 @@
     <script src="js/jquery.parallax-1.1.3.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.ajaxchimp.langs.js"></script> 
+    <script src="js/jquery.ajaxchimp.langs.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script> 
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
 
 
