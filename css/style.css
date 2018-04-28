@@ -105,7 +105,9 @@ p {
   color: #fff
 }
 #home {
-  font: 400 25px/0.8 'Cookie', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-family: 'Cookie', Sans-Serif;
   color: #fff;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
   padding-top: 45px;
@@ -198,14 +200,17 @@ p {
     font-weight: 300;
     line-height: 45px;
     padding-top: 30px */
-
-    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 130px;
+    font-family: 'Great Vibes', Sans-Serif;
     color: #fff;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 @media (max-width: 768px){
   .home_text h1#w {
-      font: 400 80px/0.8 'Great Vibes', Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 60px;
+      font-family: 'Great Vibes', Sans-Serif;
       color: #fff;
       text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
   }
