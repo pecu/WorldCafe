@@ -209,7 +209,7 @@ p {
 @media (max-width: 768px){
   .home_text h1#w {
       font-weight: 400;
-      font-size: 130px;
+      font-size: 80px;
       font-family: 'Great Vibes', Sans-Serif;
       color: #fff;
       text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
