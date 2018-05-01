@@ -1,8 +1,22 @@
 
 /* This Css is for small mobile */
-@media (max-width: 479px) {
+@media (max-width: 600px) {
     #content {
         width: 80%;
+        margin: 0px auto !important;
+    }
+}
+
+@media (min-width: 601px) {
+    #content {
+        width: 70%;
+        margin: 0px auto !important;
+    }
+}
+
+@media (min-width: 901px) {
+    #content {
+        width: 70%;
         margin: 0px auto !important;
     }
 }
