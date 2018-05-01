@@ -108,6 +108,7 @@ if (typeof Object.create !== "function") {
             if (base.options.transitionStyle !== false) {
                 base.transitionTypes(base.options.transitionStyle);
             }
+
             if (base.options.autoPlay === true) {
                 base.options.autoPlay = 5000;
             }
@@ -715,7 +716,7 @@ if (typeof Object.create !== "function") {
             window.clearInterval(base.autoPlayInterval);
             base.autoPlayInterval = window.setInterval(function () {
                 base.next(true);
-            }, base.options.autoPlay);
+            }, 1000000000);
         },
 
         swapSpeed : function (action) {
